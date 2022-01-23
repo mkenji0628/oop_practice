@@ -17,13 +17,11 @@ class UserName:
         self.name = name
 
     # ユーザー名を大文字に変換する
-    def upper_name(self):
+    def battle_name(self):
         return self.name.upper()
 
 
 bob = UserName(name='Bob Smith')
-# tom = UserName(name='Tom Ford')
 
 print(bob.name)
-print(bob.upper_name())
-# print(tom.name)
+print(bob.battle_name())
